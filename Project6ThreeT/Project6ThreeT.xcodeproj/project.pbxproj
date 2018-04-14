@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEF74532077D95A002A23B1 /* PrecondViolatedExcep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAEF743B2077D957002A23B1 /* PrecondViolatedExcep.cpp */; };
+		BAEF74542077D95A002A23B1 /* EventBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAEF743D2077D957002A23B1 /* EventBuilder.cpp */; };
+		BAEF74582077D95A002A23B1 /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAEF74472077D958002A23B1 /* Statistics.cpp */; };
+		BAEF74592077D95A002A23B1 /* Simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAEF74482077D959002A23B1 /* Simulation.cpp */; };
+		BAEF745B2077D95A002A23B1 /* mainProj6ThreeT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAEF744D2077D959002A23B1 /* mainProj6ThreeT.cpp */; };
+		BAEF745D2077D95A002A23B1 /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAEF74512077D95A002A23B1 /* Event.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAEF74292077D920002A23B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BAEF742B2077D920002A23B1 /* Project6ThreeT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project6ThreeT; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEF74352077D956002A23B1 /* SortedListInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortedListInterface.h; sourceTree = "<group>"; };
+		BAEF74362077D956002A23B1 /* LinkedQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedQueue.h; sourceTree = "<group>"; };
+		BAEF74372077D956002A23B1 /* Simulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simulation.h; sourceTree = "<group>"; };
+		BAEF74382077D957002A23B1 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		BAEF74392077D957002A23B1 /* input6.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input6.dat; sourceTree = "<group>"; };
+		BAEF743A2077D957002A23B1 /* PriorityQueueInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueueInterface.h; sourceTree = "<group>"; };
+		BAEF743B2077D957002A23B1 /* PrecondViolatedExcep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrecondViolatedExcep.cpp; sourceTree = "<group>"; };
+		BAEF743C2077D957002A23B1 /* ListInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListInterface.h; sourceTree = "<group>"; };
+		BAEF743D2077D957002A23B1 /* EventBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventBuilder.cpp; sourceTree = "<group>"; };
+		BAEF743E2077D957002A23B1 /* EventBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventBuilder.h; sourceTree = "<group>"; };
+		BAEF743F2077D957002A23B1 /* QueueInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueInterface.h; sourceTree = "<group>"; };
+		BAEF74402077D957002A23B1 /* input4.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input4.dat; sourceTree = "<group>"; };
+		BAEF74412077D958002A23B1 /* PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		BAEF74422077D958002A23B1 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		BAEF74432077D958002A23B1 /* LinkedSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedSortedList.cpp; sourceTree = "<group>"; };
+		BAEF74442077D958002A23B1 /* LinkedQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedQueue.cpp; sourceTree = "<group>"; };
+		BAEF74452077D958002A23B1 /* LinkedSortedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedSortedList.h; sourceTree = "<group>"; };
+		BAEF74462077D958002A23B1 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		BAEF74472077D958002A23B1 /* Statistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Statistics.cpp; sourceTree = "<group>"; };
+		BAEF74482077D959002A23B1 /* Simulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Simulation.cpp; sourceTree = "<group>"; };
+		BAEF74492077D959002A23B1 /* PriorityQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
+		BAEF744A2077D959002A23B1 /* PrecondViolatedExcep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrecondViolatedExcep.h; sourceTree = "<group>"; };
+		BAEF744B2077D959002A23B1 /* Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statistics.h; sourceTree = "<group>"; };
+		BAEF744C2077D959002A23B1 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		BAEF744D2077D959002A23B1 /* mainProj6ThreeT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainProj6ThreeT.cpp; sourceTree = "<group>"; };
+		BAEF744E2077D959002A23B1 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		BAEF744F2077D959002A23B1 /* EventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventType.h; sourceTree = "<group>"; };
+		BAEF74512077D95A002A23B1 /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		BAEF74522077D95A002A23B1 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEF74282077D920002A23B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEF74222077D920002A23B1 = {
+			isa = PBXGroup;
+			children = (
+				BAEF742D2077D920002A23B1 /* Project6ThreeT */,
+				BAEF742C2077D920002A23B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEF742C2077D920002A23B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF742B2077D920002A23B1 /* Project6ThreeT */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEF742D2077D920002A23B1 /* Project6ThreeT */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF744D2077D959002A23B1 /* mainProj6ThreeT.cpp */,
+				BAEF74402077D957002A23B1 /* input4.dat */,
+				BAEF74392077D957002A23B1 /* input6.dat */,
+				BAEF74512077D95A002A23B1 /* Event.cpp */,
+				BAEF74462077D958002A23B1 /* Event.h */,
+				BAEF743D2077D957002A23B1 /* EventBuilder.cpp */,
+				BAEF743E2077D957002A23B1 /* EventBuilder.h */,
+				BAEF744F2077D959002A23B1 /* EventType.h */,
+				BAEF74482077D959002A23B1 /* Simulation.cpp */,
+				BAEF74372077D956002A23B1 /* Simulation.h */,
+				BAEF74472077D958002A23B1 /* Statistics.cpp */,
+				BAEF744B2077D959002A23B1 /* Statistics.h */,
+				BAEF744C2077D959002A23B1 /* Time.h */,
+				BAEF74422077D958002A23B1 /* LinkedList.cpp */,
+				BAEF74382077D957002A23B1 /* LinkedList.h */,
+				BAEF74442077D958002A23B1 /* LinkedQueue.cpp */,
+				BAEF74362077D956002A23B1 /* LinkedQueue.h */,
+				BAEF74432077D958002A23B1 /* LinkedSortedList.cpp */,
+				BAEF74452077D958002A23B1 /* LinkedSortedList.h */,
+				BAEF743C2077D957002A23B1 /* ListInterface.h */,
+				BAEF74522077D95A002A23B1 /* Node.cpp */,
+				BAEF744E2077D959002A23B1 /* Node.h */,
+				BAEF743B2077D957002A23B1 /* PrecondViolatedExcep.cpp */,
+				BAEF744A2077D959002A23B1 /* PrecondViolatedExcep.h */,
+				BAEF74492077D959002A23B1 /* PriorityQueue.cpp */,
+				BAEF74412077D958002A23B1 /* PriorityQueue.h */,
+				BAEF743A2077D957002A23B1 /* PriorityQueueInterface.h */,
+				BAEF743F2077D957002A23B1 /* QueueInterface.h */,
+				BAEF74352077D956002A23B1 /* SortedListInterface.h */,
+			);
+			path = Project6ThreeT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEF742A2077D920002A23B1 /* Project6ThreeT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEF74322077D920002A23B1 /* Build configuration list for PBXNativeTarget "Project6ThreeT" */;
+			buildPhases = (
+				BAEF74272077D920002A23B1 /* Sources */,
+				BAEF74282077D920002A23B1 /* Frameworks */,
+				BAEF74292077D920002A23B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project6ThreeT;
+			productName = Project6ThreeT;
+			productReference = BAEF742B2077D920002A23B1 /* Project6ThreeT */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEF74232077D920002A23B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Rudolf Musika";
+				TargetAttributes = {
+					BAEF742A2077D920002A23B1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = BAEF74262077D920002A23B1 /* Build configuration list for PBXProject "Project6ThreeT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAEF74222077D920002A23B1;
+			productRefGroup = BAEF742C2077D920002A23B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEF742A2077D920002A23B1 /* Project6ThreeT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEF74272077D920002A23B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEF745D2077D95A002A23B1 /* Event.cpp in Sources */,
+				BAEF74532077D95A002A23B1 /* PrecondViolatedExcep.cpp in Sources */,
+				BAEF74592077D95A002A23B1 /* Simulation.cpp in Sources */,
+				BAEF745B2077D95A002A23B1 /* mainProj6ThreeT.cpp in Sources */,
+				BAEF74542077D95A002A23B1 /* EventBuilder.cpp in Sources */,
+				BAEF74582077D95A002A23B1 /* Statistics.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAEF74302077D920002A23B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BAEF74312077D920002A23B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BAEF74332077D920002A23B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JSA8HWVG8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAEF74342077D920002A23B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JSA8HWVG8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEF74262077D920002A23B1 /* Build configuration list for PBXProject "Project6ThreeT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEF74302077D920002A23B1 /* Debug */,
+				BAEF74312077D920002A23B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEF74322077D920002A23B1 /* Build configuration list for PBXNativeTarget "Project6ThreeT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEF74332077D920002A23B1 /* Debug */,
+				BAEF74342077D920002A23B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEF74232077D920002A23B1 /* Project object */;
+}
